@@ -1,7 +1,5 @@
 #!/bin/bash
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
-#
-
 # 基本不需要添加啥插件了,我搜集了各位大神的插件都集成一个软件包直接打入源码里面了
 # 要了解增加了什么东西，就到我的专用软件包里面看看看吧，如果还是没有你需要的插件，请不要一下子就拉取别人的插件包
 # 相同的文件都拉一起，因为有一些可能还是其他大神修改过的容易造成编译错误的
@@ -11,6 +9,4 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-ssr-plus packa
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-openclash package/lean/luci-app-openclash
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-passwall package/lean/luci-app-passwall
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-clash package/lean/luci-app-clash
-#git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/kenzok8/small package/small
-# src-git small https://github.com/kenzok8/small
